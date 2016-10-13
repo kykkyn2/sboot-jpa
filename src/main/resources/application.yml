@@ -1,0 +1,15 @@
+spring:
+
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+
+  datasource:
+    platform: mysql
+    driver-class-name: com.mysql.jdbc.Driver
+    url: xxxxx
+    username: xxxxx
+    password: xxxxx
+
